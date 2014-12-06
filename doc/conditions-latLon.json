@@ -1,0 +1,527 @@
+Req: 
+GET /api/ebdd8b3230c7ee82/geolookup/conditions/q/33.6922,-117.8157.json HTTP/1.1
+Host:
+api.wunderground.com
+X-Target-URI:
+http://api.wunderground.com
+Connection:
+Keep-Alive
+
+Res:
+HTTP/1.1 200 OK
+X-CreationTime:
+0.095
+Date:
+Sat, 22 Nov 2014 00:14:30 GMT
+Content-Length:
+9734
+Expires:
+Sat, 22 Nov 2014 00:14:30 GMT
+Last-Modified:
+Sat, 22 Nov 2014 00:14:27 GMT
+Connection:
+keep-alive
+Content-Type:
+application/json; charset=UTF-8
+Server:
+Apache/2.2.15 (CentOS)
+Pragma:
+no-cache
+Cache-Control:
+max-age=0, no-cache
+
+{
+  "response":  {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features":  {
+      "geolookup": 1,
+      "conditions": 1
+    }
+  },
+  "location":  {
+    "type": "CITY",
+    "country": "US",
+    "country_iso3166": "US",
+    "country_name": "USA",
+    "state": "CA",
+    "city": "Irvine",
+    "tz_short": "PST",
+    "tz_long": "America/Los_Angeles",
+    "lat": "33.690000",
+    "lon": "-117.810000",
+    "zip": "92623",
+    "magic": "1",
+    "wmo": "99999",
+    "l": "/q/zmw:92623.1.99999",
+    "requesturl": "US/CA/Irvine.html",
+    "wuiurl": "http://www.wunderground.com/US/CA/Irvine.html",
+    "nearby_weather_stations":  {
+      "airport":  {
+        "station":  [
+           {
+            "city": "Santa Ana",
+            "state": "CA",
+            "country": "US",
+            "icao": "KSNA",
+            "lat": "33.67566681",
+            "lon": "-117.86822510"
+          },
+           {
+            "city": "Los Alamitos",
+            "state": "CA",
+            "country": "US",
+            "icao": "KSLI",
+            "lat": "33.79000092",
+            "lon": "-118.05200195"
+          },
+           {
+            "city": "Fullerton",
+            "state": "CA",
+            "country": "US",
+            "icao": "KFUL",
+            "lat": "33.87201309",
+            "lon": "-117.97978210"
+          },
+           {
+            "city": "Corona",
+            "state": "CA",
+            "country": "US",
+            "icao": "KAJO",
+            "lat": "33.89765549",
+            "lon": "-117.60243988"
+          }
+        ]
+      },
+      "pws":  {
+        "station":  [
+           {
+            "neighborhood": "",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN7",
+            "lat": 33.674099,
+            "lon": -117.817001,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+           {
+            "neighborhood": "Greentree 2",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN22",
+            "lat": 33.701908,
+            "lon": -117.789963,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+           {
+            "neighborhood": "Greentree",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN12",
+            "lat": 33.697235,
+            "lon": -117.786095,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+           {
+            "neighborhood": "Irvine Groves",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN24",
+            "lat": 33.704765,
+            "lon": -117.787788,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+           {
+            "neighborhood": "Woodbridge-Knollglen",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN13",
+            "lat": 33.66991,
+            "lon": -117.791878,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+           {
+            "neighborhood": "University Park",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN23",
+            "lat": 33.660374,
+            "lon": -117.801048,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+           {
+            "neighborhood": "Rancho San Joaquin",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN4",
+            "lat": 33.662891,
+            "lon": -117.83017,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+           {
+            "neighborhood": "Northwood",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN11",
+            "lat": 33.71254,
+            "lon": -117.763695,
+            "distance_km": 4,
+            "distance_mi": 2
+          },
+           {
+            "neighborhood": "South Santa Ana",
+            "city": "Santa Ana",
+            "state": "CA",
+            "country": "US",
+            "id": "KCASANTA312",
+            "lat": 33.724422,
+            "lon": -117.859863,
+            "distance_km": 5,
+            "distance_mi": 3
+          },
+           {
+            "neighborhood": "North Tustin",
+            "city": "Santa Ana",
+            "state": "CA",
+            "country": "US",
+            "id": "KCASANTA229",
+            "lat": 33.744713,
+            "lon": -117.80407,
+            "distance_km": 6,
+            "distance_mi": 3
+          },
+           {
+            "neighborhood": "University Hills, UCI",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN16",
+            "lat": 33.639565,
+            "lon": -117.839897,
+            "distance_km": 6,
+            "distance_mi": 3
+          },
+           {
+            "neighborhood": "North Tustin",
+            "city": "North Tustin",
+            "state": "CA",
+            "country": "US",
+            "id": "KCANORTH22",
+            "lat": 33.747658,
+            "lon": -117.798721,
+            "distance_km": 6,
+            "distance_mi": 3
+          },
+           {
+            "neighborhood": "OC Great Park",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN27",
+            "lat": 33.667973,
+            "lon": -117.733154,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+           {
+            "neighborhood": "Lemon Heights",
+            "city": "Santa Ana",
+            "state": "CA",
+            "country": "US",
+            "id": "KCASANTA279",
+            "lat": 33.754543,
+            "lon": -117.783195,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+           {
+            "neighborhood": "MesoWest Santa Ana Fire CA US SGXWFO",
+            "city": "Santa Ana",
+            "state": "CA",
+            "country": "US",
+            "id": "MSDSTA",
+            "lat": 33.743,
+            "lon": -117.867996,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+           {
+            "neighborhood": "Angelina Place",
+            "city": "Irvine",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAIRVIN29",
+            "lat": 33.75985,
+            "lon": -117.767784,
+            "distance_km": 8,
+            "distance_mi": 5
+          },
+           {
+            "neighborhood": "Upper Newport Bay - W6IT",
+            "city": "Newport Beach",
+            "state": "CA",
+            "country": "US",
+            "id": "KCANEWPO20",
+            "lat": 33.648159,
+            "lon": -117.896019,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+           {
+            "neighborhood": "North Tustin",
+            "city": "Santa Ana",
+            "state": "CA",
+            "country": "US",
+            "id": "KCASANTA154",
+            "lat": 33.778221,
+            "lon": -117.797729,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+           {
+            "neighborhood": "Pacific Ridge",
+            "city": "Newport Coast",
+            "state": "CA",
+            "country": "US",
+            "id": "KCANEWPO7",
+            "lat": 33.600464,
+            "lon": -117.807053,
+            "distance_km": 9,
+            "distance_mi": 5
+          },
+           {
+            "neighborhood": "Central Orange - KG6MIH",
+            "city": "Orange",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAORANG13",
+            "lat": 33.785522,
+            "lon": -117.826164,
+            "distance_km": 10,
+            "distance_mi": 6
+          },
+           {
+            "neighborhood": "MesoWest Costa Mesa-Mesa Verde Dr CA US CARB",
+            "city": "Costa Mesa",
+            "state": "CA",
+            "country": "US",
+            "id": "MCQ105",
+            "lat": 33.673889,
+            "lon": -117.925827,
+            "distance_km": 10,
+            "distance_mi": 6
+          },
+           {
+            "neighborhood": "Old Town Orange",
+            "city": "Orange",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAORANG22",
+            "lat": 33.784554,
+            "lon": -117.846283,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+           {
+            "neighborhood": "East Orange - AB6OR / KI6EPW",
+            "city": "Orange",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAORANG21",
+            "lat": 33.792717,
+            "lon": -117.811615,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+           {
+            "neighborhood": "Irvine Terrace",
+            "city": "Corona Del Mar",
+            "state": "CA",
+            "country": "US",
+            "id": "KCACORON14",
+            "lat": 33.603485,
+            "lon": -117.878525,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+           {
+            "neighborhood": "Lake Forest 1",
+            "city": "Lake Forest",
+            "state": "CA",
+            "country": "US",
+            "id": "KCALAKEF6",
+            "lat": 33.6339,
+            "lon": -117.70359,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+           {
+            "neighborhood": "Irvine Terrace",
+            "city": "CORONA DEL MAR",
+            "state": "CA",
+            "country": "US",
+            "id": "KCACORON17",
+            "lat": 33.604679,
+            "lon": -117.883774,
+            "distance_km": 11,
+            "distance_mi": 7
+          },
+           {
+            "neighborhood": "Beacon Bay",
+            "city": "Newport Beach",
+            "state": "CA",
+            "country": "US",
+            "id": "KCANEWPO28",
+            "lat": 33.610516,
+            "lon": -117.900711,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+           {
+            "neighborhood": "Park City",
+            "city": "Orange",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAORANG20",
+            "lat": 33.77631,
+            "lon": -117.893738,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+           {
+            "neighborhood": "Balboa L Street",
+            "city": "Balboa",
+            "state": "CA",
+            "country": "US",
+            "id": "KCABALBO2",
+            "lat": 33.597775,
+            "lon": -117.886177,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+           {
+            "neighborhood": "Newport Heights",
+            "city": "Newport Beach",
+            "state": "CA",
+            "country": "US",
+            "id": "KCANEWPO15",
+            "lat": 33.627998,
+            "lon": -117.921997,
+            "distance_km": 12,
+            "distance_mi": 7
+          },
+           {
+            "neighborhood": "Santiago High School",
+            "city": "Garden Grove",
+            "state": "CA",
+            "country": "US",
+            "id": "KCAGARDE18",
+            "lat": 33.763069,
+            "lon": -117.918304,
+            "distance_km": 12,
+            "distance_mi": 7
+          }
+        ]
+      }
+    }
+  },
+  "current_observation":  {
+    "image":  {
+      "url": "http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+      "title": "Weather Underground",
+      "link": "http://www.wunderground.com"
+    },
+    "display_location":  {
+      "full": "Irvine, CA",
+      "city": "Irvine",
+      "state": "CA",
+      "state_name": "California",
+      "country": "US",
+      "country_iso3166": "US",
+      "zip": "92623",
+      "magic": "1",
+      "wmo": "99999",
+      "latitude": "33.690000",
+      "longitude": "-117.810000",
+      "elevation": "20.00000000"
+    },
+    "observation_location":  {
+      "full": "Irvine, California",
+      "city": "Irvine",
+      "state": "California",
+      "country": "US",
+      "country_iso3166": "US",
+      "latitude": "33.674099",
+      "longitude": "-117.817001",
+      "elevation": "78 ft"
+    },
+    "estimated":  {},
+    "station_id": "KCAIRVIN7",
+    "observation_time": "Last Updated on November 21, 4:14 PM PST",
+    "observation_time_rfc822": "Fri, 21 Nov 2014 16:14:26 -0800",
+    "observation_epoch": "1416615266",
+    "local_time_rfc822": "Fri, 21 Nov 2014 16:14:27 -0800",
+    "local_epoch": "1416615267",
+    "local_tz_short": "PST",
+    "local_tz_long": "America/Los_Angeles",
+    "local_tz_offset": "-0800",
+    "weather": "Clear",
+    "temperature_string": "67.1 F (19.5 C)",
+    "temp_f": 67.1,
+    "temp_c": 19.5,
+    "relative_humidity": "62%",
+    "wind_string": "Calm",
+    "wind_dir": "South",
+    "wind_degrees": 180,
+    "wind_mph": 0,
+    "wind_gust_mph": 0,
+    "wind_kph": 0,
+    "wind_gust_kph": 0,
+    "pressure_mb": "1014",
+    "pressure_in": "29.95",
+    "pressure_trend": "+",
+    "dewpoint_string": "54 F (12 C)",
+    "dewpoint_f": 54,
+    "dewpoint_c": 12,
+    "heat_index_string": "NA",
+    "heat_index_f": "NA",
+    "heat_index_c": "NA",
+    "windchill_string": "NA",
+    "windchill_f": "NA",
+    "windchill_c": "NA",
+    "feelslike_string": "67.1 F (19.5 C)",
+    "feelslike_f": "67.1",
+    "feelslike_c": "19.5",
+    "visibility_mi": "10.0",
+    "visibility_km": "16.1",
+    "solarradiation": "--",
+    "UV": "0",
+    "precip_1hr_string": "0.00 in ( 0 mm)",
+    "precip_1hr_in": "0.00",
+    "precip_1hr_metric": " 0",
+    "precip_today_string": "0.00 in (0 mm)",
+    "precip_today_in": "0.00",
+    "precip_today_metric": "0",
+    "icon": "clear",
+    "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+    "forecast_url": "http://www.wunderground.com/US/CA/Irvine.html",
+    "history_url": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAIRVIN7",
+    "ob_url": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=33.674099,-117.817001",
+    "nowcast": ""
+  }
+}
